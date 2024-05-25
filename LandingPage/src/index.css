@@ -175,8 +175,8 @@ nav {
 .imgsec2 {
   width: 200px !important;
   transition: 0.5s ease-in-out;
-  opacity: 0;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) !important;
+  animation: fadeInUp 1s ease-in-out forwards; /* animacao para resolver o problema nas funcionalidades.tsx */
   /* Adiciona sombra */
 }
 
@@ -201,6 +201,7 @@ nav {
 @keyframes fadeInUp {
   from {
       transform: translateY(20px);
+      opacity: 0;
   }
 
   to {
