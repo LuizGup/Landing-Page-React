@@ -12,7 +12,7 @@ function CodeCrafters() {
             <div className="col-md-3 col-sm-6">
               <img
                 className="animatable imgsec2 rounded-3"
-                src="./imgs/profileimgs/eduardoRoseo.jfif"
+                src="src/imgs/profileimgs/eduardoRoseo.png"
                 alt=""
               />
               <h5 className="h5section2 pt-3">
@@ -23,7 +23,7 @@ function CodeCrafters() {
             <div className="col-md-3 col-sm-6">
               <img
                 className="animatable imgsec2 rounded-3"
-                src="./imgs/profileimgs/marquesMatos.jfif"
+                src="src/imgs/profileimgs/marquesMatos.png"
                 alt=""
               />
               <h5 className="h5section2 pt-3">
@@ -34,7 +34,7 @@ function CodeCrafters() {
             <div className="col-md-3 col-sm-6">
               <img
                 className="animatable imgsec2 rounded-3"
-                src="./imgs/profileimgs/viniciusVasconcelos.jfif"
+                src="src/imgs/profileimgs/viniciusVasconcelos.png"
                 alt=""
               />
               <h5 className="h5section2 pt-3">
@@ -45,7 +45,7 @@ function CodeCrafters() {
             <div className="col-md-3 col-sm-6">
               <img
                 className="animatable imgsec2 rounded-3"
-                src="./imgs/profileimgs/leonardoLima.jfif"
+                src="src/imgs/profileimgs/leonardoLima.png"
                 alt=""
               />
               <h5 className="h5section2 pt-3">
@@ -56,7 +56,7 @@ function CodeCrafters() {
             <div className="col-md-3 col-sm-6">
               <img
                 className="animatable imgsec2 rounded-3"
-                src="imgs/profileimgs/LuizCarlos.jfif"
+                src="src/imgs/profileimgs/LuizCarlos.png"
                 alt=""
               />
               <h5 className="h5section2 pt-3">
