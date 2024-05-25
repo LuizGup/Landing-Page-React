@@ -201,17 +201,15 @@ nav {
 @keyframes fadeInUp {
   from {
       transform: translateY(20px);
-      opacity: 0;
   }
 
   to {
       transform: translateY(0);
-      opacity: 1 !important;
+      opacity: 1;
   }
 }
 
 .fadeInUp {
-  opacity: 0;
   animation-name: fadeInUp;
   animation-fill-mode: forwards;
   animation-duration: 1s;
