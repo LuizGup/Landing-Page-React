@@ -31,7 +31,7 @@ function IntegrantesDoCurso() {
             alt=""
           />
           <h5 className="h5section2 pt-3">
-            Viníciu Vasconcelos - Ex aluno, hoje mora em Portugal e trabalha
+            Vinícius Vasconcelos - Ex aluno, hoje mora em Portugal e trabalha
             para uma empresa de tecnologia.
           </h5>
         </div>
