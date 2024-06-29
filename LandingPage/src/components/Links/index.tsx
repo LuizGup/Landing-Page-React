@@ -6,17 +6,17 @@ function Links() {
     >
       <ul className="navbar-nav mb-2 mb-lg-0 flex-grow-1 justify-content-center">
         <li className="nav-item">
-          <a href="#" className="nav-link aIndex me-5" id="#">
+          <a href="#" className="nav-link aIndex me-5" id="">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link aIndex me-5" id="#">
+          <a href="#" className="nav-link aIndex me-5" id="">
             Sobre Nós
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link aIndex me-5" id="#">
+          <a href="#" className="nav-link aIndex me-5" id="">
             Contato
           </a>
         </li>

@@ -1,6 +1,20 @@
 body {
   background-color: #030812;
 }
+:root {
+  --main-color: rgb(255, 0, 230);
+}
+
+.black {
+  transition: 1s ease-in-out;
+  background-color: rgb(0, 0, 0) !important;
+  color: var(--main-color);
+}
+
+.white {
+  transition: 1s ease-in-out;
+  background-color: rgb(255, 255, 255) !important;
+}
 
 nav {
   font-family: 'Inter', sans-serif;
