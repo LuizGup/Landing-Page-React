@@ -4,7 +4,9 @@ body {
 :root {
   --main-color: rgb(255, 0, 230);
 }
-
+.container1{
+  filter: invert(1);
+}
 .black {
   transition: 1s ease-in-out;
   background-color: rgb(0, 0, 0) !important;
@@ -52,7 +54,16 @@ nav {
 
 #sec1 {
   color: #FFFBFF;
-  background: linear-gradient(#030812 1%, #02182B 5%);
+  background: linear-gradient(#030812 1%, #02182B 5%); 
+   background-color: #02182B;
+}
+#sec2 {
+  background: linear-gradient(#02182B 80%, #030812 100%);
+   color: #FFFBFF;
+  background-color: #02182B;
+}
+#sec3{
+  color: #FFFBFF;
 }
 
 .sec1h1 {
@@ -73,10 +84,6 @@ nav {
 }
 
 
-
-#sec2 {
-  background: linear-gradient(#02182B 80%, #030812 100%);
-}
 
 
 .navbarIndex {
@@ -134,14 +141,9 @@ nav {
   clip-path: polygon(0 0, 100% calc(10% - 12px), 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
 }
 
-#sec1 {
-  background-color: #02182B;
-}
 
-#sec2 {
-  color: #FFFBFF;
-  background-color: #02182B;
-}
+
+
 
 .mgr1 {
   margin-right: 160px !important;
@@ -196,6 +198,7 @@ nav {
 
 .imgsec2:hover {
   width: 220px !important;
+  margin: -10px;
   transition: 0.5s ease-in-out;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8) !important;
 }
@@ -203,13 +206,12 @@ nav {
 .h5section2 {
   opacity: 0;
   transition: 0.5s ease-in-out;
-
 }
 
 .imgsec2:hover+.h5section2 {
   opacity: 1;
   transition: 0.5s ease-in-out;
-
+  transform: translateY(15px);
 }
 
 @keyframes fadeInUp {
