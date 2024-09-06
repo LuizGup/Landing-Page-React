@@ -1,5 +1,6 @@
 body {
   background-color: #030812;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 :root {
   --main-color: rgb(255, 0, 230);
