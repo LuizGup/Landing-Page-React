@@ -5,7 +5,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="src/imgs/profileimgs/eduardoRoseo.png"
+            src="../../src/imgs/profileimgs/eduardoRoseo.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -16,7 +16,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="src/imgs/profileimgs/marquesMatos.png"
+            src="../../src/imgs/profileimgs/marquesMatos.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -27,7 +27,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="src/imgs/profileimgs/viniciusVasconcelos.png"
+            src="../../src/imgs/profileimgs/viniciusVasconcelos.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -38,7 +38,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="src/imgs/profileimgs/leonardoLima.png"
+            src="../../src/imgs/profileimgs/leonardoLima.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -49,7 +49,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="src/imgs/profileimgs/LuizCarlos.png"
+            src="../../src/imgs/profileimgs/LuizCarlos.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
