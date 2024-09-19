@@ -3,12 +3,12 @@ function LogoAnimada() {
     <div className="col">
       <div className="position-relative text-center mt-3" id="containerImgs">
         <img
-          src="src/imgs/logonew5.png"
+          src="../../imgs/logonew5.png"
           alt=""
           className="img-fluid imgLogoIndex"
         />
         <img
-          src="src/imgs/LogoCodeCrafter2.png"
+          src="../../imgs/LogoCodeCrafter2.png"
           alt=""
           className="position-absolute top-50 start-50 translate-middle imgLogoIndex2"
         />
