@@ -32,7 +32,7 @@ function SobreOCurso() {
               <div className="row justify-content-around">
                 <div className="col-md-auto text-center border border-2 border-info rounded p-5 bordersec1">
                   <img
-                    src="../../imgs/icons8-html-5-48.png"
+                    src="../../../public/imgs/icons8-html-5-48.png"
                     alt="#"
                     className="imgsec1 mb-1"
                   />
@@ -43,7 +43,7 @@ function SobreOCurso() {
                 </div>
                 <div className="col-md-auto text-center border border-2 border-info rounded p-5 bordersec1">
                   <img
-                    src="../../imgs/icons8-css3-48.png"
+                    src="../../../public/imgs/icons8-css3-48.png"
                     alt="#"
                     className="imgsec1 mb-1"
                   />
@@ -54,7 +54,7 @@ function SobreOCurso() {
                 </div>
                 <div className="col-md-auto text-center border border-2 border-info rounded p-5 bordersec1">
                   <img
-                    src="../../imgs/icons8-javascript-48.png"
+                    src="../../../public/imgs/icons8-javascript-48.png"
                     alt="#"
                     className="imgsec1"
                   />
