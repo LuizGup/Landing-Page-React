@@ -49,7 +49,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="../../../public/imgs/profileimgs/LuizCarlos.png"
+            src="/imgs/profileimgs/LuizCarlos.png"
             alt=""
           />
           <h5 className="h5section2 pt-3">
