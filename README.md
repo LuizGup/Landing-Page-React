@@ -1,1 +1,1 @@
-https://luizgup.github.io/Landing-Page-React/
+https://landing-page-react-edlyttn05-luizgups-projects.vercel.app/
