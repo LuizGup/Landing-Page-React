@@ -45,13 +45,14 @@ nav {
   background: rgba(3, 8, 18, 0.8) !important;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5) !important;
   transition: 0.2s ease-in-out;
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 
   & #imglogo {
-      width: 120px;
+      width: 90px;
       margin-bottom: 0 !important;
       margin-top: 0 !important;
-      transition: 0.2s ease-in-out;
+      transition: 0.3s ease-in-out;
   }
 }
 
@@ -196,11 +197,13 @@ nav {
   width: 200px !important;
   transition: 0.5s ease-in-out;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) !important;
-  animation: fadeInUp 1s ease-in-out forwards; /* animacao para resolver o problema nas funcionalidades.tsx */
+  opacity: 0;
+  /* animation: fadeInUp 1s ease-in-out forwards;  */
+  /* animacao para resolver o problema nas funcionalidades.tsx */
   /* Adiciona sombra */
 }
 
-.imgsec2:hover {
+.fadeInUp:hover {
   width: 220px !important;
   margin: -10px;
   transition: 0.5s ease-in-out;
@@ -212,7 +215,7 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
-.imgsec2:hover+.h5section2 {
+.fadeInUp:hover+.h5section2 {
   opacity: 1;
   transition: 0.5s ease-in-out;
   transform: translateY(15px);
@@ -235,4 +238,8 @@ nav {
   animation-fill-mode: forwards;
   animation-duration: 1s;
   animation-delay: 1s;
+  width: 200px !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) !important;
+  opacity: 0;
 }

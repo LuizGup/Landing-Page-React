@@ -3,7 +3,7 @@ import TituloGeral from "../TituloGeral";
 function Planos() {
   return (
     <section className=" " id="sec3">
-      <TituloGeral titulo="Planos da C.C.A." />
+      <TituloGeral id="section3" titulo="Planos da C.C.A." />
       <div className="container pt-5">
         <div className="row justify-content-around">
           <div className="col-md-auto text-center border border-2 border-info rounded p-5 bordersec1">

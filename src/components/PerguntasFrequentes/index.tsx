@@ -4,7 +4,7 @@ import TituloGeral from "../TituloGeral";
 function PerguntasFrequentes() {
   return (
     <section>
-      <TituloGeral titulo="Perguntas Frequentes (FAQ)" />
+      <TituloGeral id="section4" titulo="Perguntas Frequentes (FAQ)" />
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
