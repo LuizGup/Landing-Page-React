@@ -1,9 +1,11 @@
+import logonew5 from "../../assets/imgs/logonew5.png";
+
 function LogoAnimada() {
   return (
     <div className="col">
       <div className="position-relative text-center mt-3" id="containerImgs">
         <img
-          src="/imgs/logonew5.png"
+          src={logonew5}
           alt=""
           className="img-fluid imgLogoIndex"
         />
