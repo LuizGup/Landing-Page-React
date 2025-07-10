@@ -1,3 +1,10 @@
+import EduardoRoseo from "../../assets/imgs/profileimgs/eduardoRoseo.png";
+import MarquesMatos from "../../assets/imgs/profileimgs/marquesMatos.png";
+import ViniciusVasconcelos from "../../assets/imgs/profileimgs/viniciusVasconcelos.png";
+import LeonardoLima from "../../assets/imgs/profileimgs/leonardoLima.png";
+import LuizCarlos from "../../assets/imgs/profileimgs/LuizCarlos.png";
+
+
 function IntegrantesDoCurso() {
   return (
     <div className="row justify-content-center">
@@ -5,7 +12,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="../../imgs/profileimgs/eduardoRoseo.png"
+            src={EduardoRoseo}
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -16,7 +23,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="../../imgs/profileimgs/marquesMatos.png"
+            src={MarquesMatos}
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -27,7 +34,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="../../imgs/profileimgs/viniciusVasconcelos.png"
+            src={ViniciusVasconcelos}
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -38,7 +45,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="../../imgs/profileimgs/leonardoLima.png"
+            src={LeonardoLima}
             alt=""
           />
           <h5 className="h5section2 pt-3">
@@ -49,7 +56,7 @@ function IntegrantesDoCurso() {
         <div className="col-md-3 col-sm-6">
           <img
             className="animatable imgsec2 rounded-3"
-            src="/imgs/profileimgs/LuizCarlos.png"
+            src={LuizCarlos}
             alt=""
           />
           <h5 className="h5section2 pt-3">
